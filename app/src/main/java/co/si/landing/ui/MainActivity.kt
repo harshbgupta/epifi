@@ -10,7 +10,9 @@ import androidx.lifecycle.ViewModelProvider
 import co.si.R
 import co.si.databinding.MainActivityBinding
 import co.si.landing.networking.MainViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var binding: MainActivityBinding
     private lateinit var viewModel: MainViewModel

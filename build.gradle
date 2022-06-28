@@ -25,6 +25,7 @@ buildscript {
         //So open file "gradle-wrapper.properties" and and check there
         classpath "com.android.tools.build:gradle:7.1.3"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.38.1'
     }
 }
 

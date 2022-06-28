@@ -1,6 +1,8 @@
 package co.si
 
 import android.app.Application
+import androidx.databinding.ktx.BuildConfig
+import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
 /**
@@ -9,6 +11,7 @@ import timber.log.Timber
  * @author Mr. Lucifer
  * @since Feb 16, 2022
  */
+@HiltAndroidApp
 class App : Application() {
 
     override fun onCreate() {
