@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="actionBarSize">@dimen/dp0</item>
+        <!--Theme.AppCompat.Light.NoActionBar-->
+        <!--Theme.MaterialComponents.Light.NoActionBar-->
+        <!--Theme.MaterialComponents.NoActionBar-->
+
+        <!-- text input text field -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/color_white_1000</item>
+    </style>
+
+    <!--<item name="colorControlNcormal">@color/color_text_black_hint_disabled</item>
+        <item name="colorControlActivated">@color/color_text_black_secondary_icons</item>
+        <item name="colorControlHighlight">@color/color_text_black</item>
+
+
+    <item name="android:windowLightStatusBar">true</item>-->
+
+    <!-- normal text sans-serif -->
+    <style name="TextRegular">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <!-- normal text sans-serif -->
+    <style name="TextBold">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <!-- normal text sans-serif -->
+    <style name="TextSemiBold">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/sp16</item>
+    </style>
+
+
+    <!-- elevations -->
+    <style name="elevationFloating">
+        <item name="android:elevation">@dimen/elevation_floating_button</item>
+    </style>
+
+    <style name="elevationFloatingSub">
+        <item name="android:elevation">@dimen/elevation_floating_button_sub</item>
+    </style>
+
+    <style name="elevationCardView">
+        <item name="android:elevation">@dimen/elevation_card_view</item>
+    </style>
+
+    <style name="elevationDialogPicker">
+        <item name="android:elevation">@dimen/elevation_dialog_picker</item>
+    </style>
+
+    <style name="elevationNavDrawer">
+        <item name="android:elevation">@dimen/elevation_nav_drawer</item>
+    </style>
+
+    <style name="elevationSwitch">
+        <item name="android:elevation">@dimen/elevation_switch</item>
+    </style>
+
+    <style name="elevationSnackBar">
+        <item name="android:elevation">@dimen/elevation_snack_bar</item>
+    </style>
+
+    <style name="elevationToolbar">
+        <item name="android:elevation">@dimen/elevation_toolbar</item>
+    </style>
+</resources>

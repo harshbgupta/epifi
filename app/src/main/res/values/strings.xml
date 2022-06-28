@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Fi-Harsh</string>
+
+    <string name="s" translatable="false">S.</string>
+
+    <string name="terms_and_policy_text">Providing PAN &amp; Date of Birth helps us find and fetch your KYC from a central registry by the Gov of India. <font color="#6962d9"><b>Learn more</b></font></string>
+    <string name="i_don_t_have_pan">I don\'t have PAN</string>
+    <string name="next">Next</string>
+    <string name="first_of_few_steps_to_set_you_up_for_with_a_bank_account">First of few steps to set you up for with a Bank Account</string>
+    <string name="pan_number">Pan Number</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="valid_pan_warning">Please enter valid Pan</string>
+    <string name="error">error</string>
+    <string name="suceess_submitted">Details submitted successfully</string>
+</resources>
